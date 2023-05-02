@@ -19,3 +19,7 @@ a.text-primary:contains('മൈക്കിൾ എ എൻ') {
   font-family: 'MANO31';
   font-size: 10px;
 }
+
+.tab-toolbar.public.tab-fill.tab-widget {
+  display: none !important;
+}
