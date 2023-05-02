@@ -4,7 +4,7 @@ function checkTableauLoaded() {
     if (viz.getWorkbook().getIsDoneRendering()) {
       // The embedded code has fully loaded, hide the toolbar
       var toolbar = document.querySelector('.tab-toolbar.public.tab-fill.tab-widget');
-      toolbar.style.display = 'none';
+      toolbar.style.display = 'none !important';
     } else {
       // The embedded code is still loading, wait and try again
       setTimeout(checkTableauLoaded, 100);
