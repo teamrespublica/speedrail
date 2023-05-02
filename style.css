@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Keraleeyam-Regular';
+    src: url('./assets/fonts/Keraleeyam-Regular.woff') format('woff'),
+         url('./assets/fonts/Keraleeyam-Regular.woff2') format('woff2');
+  }
+  
+@font-face {
+font-family: 'Uroob-Regular';
+src: url('./assets/fonts/Uroob-Regular.woff') format('woff'),
+        url('./assets/fonts/Uroob-Regular.woff2') format('woff2');
+}
+  
+@font-face {
+font-family: 'MANO31';
+src: url('./assets/fonts/MANO31.TTF') format('truetype');
+}
+
+a.text-primary:contains('മൈക്കിൾ എ എൻ') {
+  font-family: 'MANO31';
+  font-size: 10px;
+}
